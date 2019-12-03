@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SGI</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h2 id="banner">GERENCIAMENTO DE INGRESSOS</h2>    
+            <div id="container-topo">
+                <div id="area-do-cliente">
+                    <button class="btn">Área do Cliente</button>
+                </div>
+            </div>
+    </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Ingressos</a>
+            <ul>
+                <li><a href="#">Shows</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Peças</a></li>
+            </ul>
+            </li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav> 
+            <section>
+                <div class="content-search">
+                <!-- Formulário de Pesquisa-->
+                    <form class="search" action="#">
+                        <input type="text" placeholder="O que você procura?" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <select class="option">
+                            <option value="shows">Shows</option>
+                            <option value="filmes">Filmes</option>
+                            <option value="peças">Peças</option>
+                        </select>
+                    </form>
+                    <div id="melhores-opcoes">
+                        <h3>MAIS VISTOS!</h3>
+                        <p>São vários ingressos para shows, filmes e peças de teatro, confira!</p>
+                        <div class="holder">
+                            <div class="imagem" data-title="O Coringa nos cinemas!">
+                                <img src="img/movie01.jpg" alt="O Coringa nos cinemas!">
+                            </div>
+                            <div class="imagem" data-title="Sandy e Junior em turnê">
+                                <img src="img/sandyejunior.jpg" alt="Sandy e Junior em turnê">
+                            </div>
+                            <div class="imagem" data-title="Frank Sinatra em cartaz">
+                                <img src="img/franksinatra.jpg" alt="Frank Sinatra em cartaz">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+</body>
+</html>
