@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="estilos.css">
     <!-- Load icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" type="text/css">
 </head>
 <body>
     <header>
@@ -30,14 +31,17 @@
             </li>
                 <li><a href="#">Contato</a></li>
             </ul>
-        </nav> 
+        </nav>
+    <main>
             <section>
                 <div class="content-search">
-                <!-- Formulário de Pesquisa-->
                     <form class="search" action="#">
-                        <input type="text" placeholder="O que você procura?" name="search">
+                        <label for="busca"></label>
+                        <input type="text" id="busca" placeholder="O que você procura?" name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
-                        <select class="option">
+
+                        <label for="opcao"></label>
+                        <select class="option" id="opcao">
                             <option value="shows">Shows</option>
                             <option value="filmes">Filmes</option>
                             <option value="peças">Peças</option>
@@ -60,5 +64,17 @@
                     </div>
                 </div>
             </section>
+    </main>
+<footer>
+    <div class="menu-footer">
+        <h4>Menu</h4>
+        <ul class="menu-simplificado">
+            <li>Sobre</li>
+            <li>Ingressos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+        <p class="copyright">Copyright Smart Inf - 2019</p>
+</footer>
 </body>
 </html>
